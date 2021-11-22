@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+    <title>The Math Quiz Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitter.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+
+                        
+        <h1 class="header">
+            Kwitter<sup>
+                <img src="">
+            </sup>
+        </h1>
+        <div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+
+    </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm6 col-xs-11 login_div">
+            <img src="" class="logo">
+            <h3 style="text-align: center;">See what is happening in the world right now</h3>
+            <h4>Join Kwitter today</h4>
+
+            <div class="form-group">
+                <label>User Name: </label>
+                <input type="text" id="user_name" class="form-control" placeholder="User Name">
+            </div>
+
+            <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+        </div>
+
+</body>
+</html>
